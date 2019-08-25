@@ -1,0 +1,20 @@
+/* p:first-child {
+    color: blueviolet;
+}
+
+p:hover {
+    color: brown;
+} */
+
+p:nth-child(2n):hover {
+    color:chartreuse;
+}
+
+p:nth-child(2n) {
+    color:forestgreen;
+}
+
+p::first-letter {
+    color: blueviolet;
+    font-size: 40px;
+}
