@@ -1,12 +1,12 @@
 /*------ Variables */
-:root{
+:root {
   /*------ fuente */
-  --muli-font: 'Muli', sans-serif;;  
+  --muli-font: 'Muli', sans-serif;
   /*------ Tipografía */
-  --normal:12px;
+  --normal: 12px;
   /*------ Espaciado */
-  --space:10px;
-  --space-2:20px;   
+  --space: 10px;
+  --space-2: 20px;
 }
 
 body {
@@ -102,6 +102,23 @@ header img {
   text-decoration: underline;
 }
 
+.login__container--login {
+  display: flex;
+  justify-content: center;
+}
+
+.login__container--login a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: var(--muli-font);
+}
+
+.login__container--login a:hover {
+    text-decoration: underline;
+}
+
 .input {
   background-color: transparent;
   border-left: 0px;
@@ -113,7 +130,7 @@ header img {
   margin-bottom: 20px;
   padding: 0px 20px;
   outline: none;
-  height: 50px;;
+  height: 50px;
 }
 
 ::placeholder {
@@ -129,28 +146,28 @@ header img {
   background-color: rgb(255, 255, 255, 0.1);
   border: 2px solid white;
   cursor: pointer;
-  margin: 10px 0px;;
+  margin: 10px 0px;
   font-weight: bold;
   letter-spacing: 1px;
 }
 
 .footer {
-    background-color: #ab88ff;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
+  background-color: #ab88ff;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
 }
 
 .footer a {
-   color: white;
-   text-decoration: none;
-   padding-left: 30px;
-   font-family: var(--muli-font);
-   font-size: 14px;
-   cursor: pointer;
+  color: white;
+  text-decoration: none;
+  padding-left: 30px;
+  font-family: var(--muli-font);
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .footer a:hover {
-   text-decoration: underline;
+  text-decoration: underline;
 }
