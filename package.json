@@ -1,0 +1,17 @@
+{
+  "name": "front-end-dev",
+  "version": "1.0.0",
+  "description": "proyecto front end",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "storybook": "start-storybook"
+  },
+  "author": "Juan Ballesteros",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@storybook/html": "^5.1.11",
+    "babel-loader": "^8.0.6"
+  }
+}
